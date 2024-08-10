@@ -41,6 +41,7 @@ with col2:
 if page == "Home":
     st.write("Welcome to the Loan Risk Categorization App.")
     st.write("Use the sidebar to navigate to Adhoc or Batch Profiling.")
+    st.write("Use the sidebar to navigate to Adhoc or Batch Profiling123343.")
 elif page == "Adhoc Risk Profiling":
     st.header("Enter customer details:")
     age = st.number_input("Age", min_value=18, max_value=100)
